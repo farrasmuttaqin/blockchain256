@@ -1,12 +1,9 @@
-# PHP Blockchain
+# PHP Blockchain - Composer
 <p align="center">
 <a href="https://choosealicense.com/licenses/mit/" alt="MIT License" target="_blank"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"/></a>
 </p>
 
 An object-oriented PHP library for creating a simple blockchain easily.
-
-Original code (august 2015) by Marty Anstey (https://marty.anstey.ca/), on [Github](https://github.com/rhondle/BlockChain).  
-The code has been improved and adapted to an object-oriented library.
 
 ## Characteristics
 
@@ -25,7 +22,7 @@ composer require flavienbwk/blockchain-php
 
 ### Adding a block.
 
-Our blockchain will be saved in the `blockchain.dat` file for the example.
+Blockchain will be saved in the `blockchain.dat` file for the example.
 
 ````php
 require 'vendor/autoload.php';
@@ -64,7 +61,7 @@ $all = $Blockchain->getBlockchain("blockchain.dat");
 var_dump($all);
 ````
 
-As 3 blocks have been added, it will display :
+It will display :
 
 ````php
 [  
